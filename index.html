@@ -8,38 +8,32 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-<!-- HERO SECTION -->
+<!-- HEADER / HERO (REDUCED HEIGHT) -->
 <header class="relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');">
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
-    <div class="relative max-w-7xl mx-auto px-6 py-24">
-        <h1 class="text-5xl md:text-6xl font-bold text-white mb-4">DonsDomains.Com</h1>
-        <p class="text-2xl md:text-3xl text-gray-200">Helping Businesses Secure & Protect Their Brand Online</p>
+    <div class="relative max-w-7xl mx-auto px-6 py-12 md:py-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">DonsDomains.Com</h1>
+        <p class="text-xl md:text-2xl text-gray-200">Helping Businesses Secure & Protect Their Brand Online</p>
     </div>
 </header>
 
 <!-- MAIN SECTION -->
-<section class="max-w-full mx-auto px-6 py-20">
+<section class="max-w-7xl mx-auto px-6 py-16">
     <div class="flex flex-col md:flex-row items-stretch gap-10">
 
-        <!-- IMAGE COLUMN (55%) -->
-        <div style="flex:0 0 55%; max-width:55%; display:flex; align-items:stretch;">
+        <!-- IMAGE COLUMN -->
+        <div class="md:w-[55%] w-full">
             <img 
                 src="buster.jpg" 
                 alt="Buster Wood"
-                style="
-                    width:100%;
-                    height:100%;
-                    min-height:850px;
-                    object-fit:cover;
-                    border-radius:32px;
-                    box-shadow:0 30px 80px rgba(0,0,0,0.35);
-                "
+                class="w-full h-[500px] md:h-[850px] object-cover rounded-3xl shadow-2xl"
             >
         </div>
 
-        <!-- TEXT COLUMN (45%) -->
-        <div style="flex:0 0 45%; max-width:45%; display:flex; flex-direction:column; justify-content:center;">
+        <!-- TEXT COLUMN -->
+        <div class="md:w-[45%] w-full flex flex-col justify-center">
+
             <h2 class="text-3xl font-bold mb-4">Premium Brand Domains</h2>
 
             <p class="mb-4">
@@ -49,24 +43,25 @@
 
             <ul class="list-disc ml-5 mb-6 space-y-2">
                 <li>Build trust & authority</li>
-                <li>Prevent brand misuse</li>
-                <li>Increase memorability</li>
-                <li>Support expansion</li>
+                <li>Prevent brand misuse & impersonation</li>
+                <li>Increase memorability & credibility</li>
+                <li>Support long-term expansion</li>
             </ul>
 
             <h3 class="text-xl font-semibold mb-2">How It Works</h3>
             <ol class="list-decimal ml-5 mb-6 space-y-2">
                 <li>You express interest in a domain</li>
                 <li>We agree on price & terms</li>
-                <li>Secure purchase via GoDaddy, Afternic, Namecheap</li>
-                <li>Domain transferred directly to you</li>
+                <li>Secure purchase via GoDaddy, Afternic, or Namecheap</li>
+                <li>Domain is transferred directly to you</li>
             </ol>
 
-            <div class="bg-white p-6 rounded-xl shadow-md">
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
                 <p class="font-semibold text-lg">Buster Wood – Founder</p>
                 <p>Email: <a href="mailto:buster@donsdomains.com" class="text-blue-600">buster@donsdomains.com</a></p>
                 <p>WhatsApp: <a href="https://wa.me/918693029189" class="text-green-600">+91 8693029189</a></p>
             </div>
+
         </div>
 
     </div>
